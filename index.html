@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <form name="fileForm" id="fileForm">
+            <div class="inputArea">
+            <input name="fileInfo" id="fileInfo" accept=".txt" multiple type="file">
+            <p id="fileInfo__p">Drag your files here or click in this area.</p>
+            </div>
+            <button id="uploadFile">Upload</button>
+        </form>
+        <form id="concat">
+            <input type="text" placeholder="Message" id="messageInfo">
+            <button id="sendBtn">Send</button>
+        </form>
+    </div>
+    <script src="send-data.js"></script>
+</body>
+</html>
